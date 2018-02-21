@@ -26,20 +26,13 @@ while restart != 'no':
 
     # takes information from user
     choice=input('Enter 1, 2, 3, 4 or 5: ')
+###    print('Enter answer to use your previous answer if applicable')
+    num1=float(input('Enter first number: '))
+    num2=float(input('Enter second number: '))
 
-#BELOW IS TEST CODE THAT I COULD NOT GET TO WORK
-#IT WAS AN ATTEMPT TO ERROR PROOF THE NUMBER INPUTS   
-###    print('Enter answer to use your previous answer if applicable')    
-#    num1=None
-#    while num1 is None:
-#        try:
-#            num1=float(input('Enter first number: '))
-#        except ValueError:
-#            print('Invalid Input, ENTER NUMBER'.format(num1))
-#            break       
-#            num2=float(input('Enter second number: '))
 ###    if num1 == 'answer':
 ###        num1 = answer
+
 ###    if num2 == 'answer':
 ###        num2 = answer
 
@@ -62,9 +55,9 @@ while restart != 'no':
     else:
         print('Invalid Input')
 
-        # ends/restarts while loop depending on user input
-        restart=input('Another operation? If not enter no: ')
-        if restart != 'no':
-            print('I am not sure, but I will take that as a yes')
+    # ends/restarts while loop depending on user input
+    restart=input('Another operation? If not enter no: ')
+    if restart != 'no':
+        print('I am not sure, but I will take that as a yes')
 
     
