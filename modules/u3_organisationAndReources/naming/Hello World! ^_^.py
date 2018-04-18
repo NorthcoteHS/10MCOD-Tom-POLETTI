@@ -1,7 +1,7 @@
 """
 Prog:   ???
-Name:   Student Name
-Date:   12/03/18
+Name:   Tom Poletti
+Date:   2018/04/18
 Desc:   My first program!
 """
 
