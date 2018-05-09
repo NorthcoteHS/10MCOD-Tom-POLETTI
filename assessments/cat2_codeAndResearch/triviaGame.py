@@ -18,11 +18,13 @@ for i,item in enumerate(qs):
     else:
         print('Incorrect!')
 
+print(count)
+
 mess1 = ['Unlucky, ', 'Not bad, ', 'Perfect, ']
 mess2 = ('you scored')
-if count == (0, 1):
+if count == 0 or count == 1:
     print(mess1[0]+mess2, count)
-elif count == (2, 3, 4):
+elif count == 2 or count == 3 or count == 4:
     print(mess1[1]+mess2, count)
 else:
     print(mess1[2]+mess2, count)
