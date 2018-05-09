@@ -20,9 +20,9 @@ for i,item in enumerate(qs):
 
 mess1 = ['Unlucky, ', 'Not bad, ', 'Perfect, ']
 mess2 = ('you scored')
-if count == 0, 1:
+if count == (0, 1):
     print(mess1[0]+mess2, count)
-elif count == 2, 3, 4:
+elif count == (2, 3, 4):
     print(mess1[1]+mess2, count)
-else count == 5:
+else:
     print(mess1[2]+mess2, count)
